@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- APlayer CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>My Music</title>
+    <link rel="icon" href="./photos/pn1.png">
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        body{
+            background-color: #0f1123;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+      img{
+          width: 100%;
+          height: 270px;
+      }
+      .main{
+          padding: 40px 0;
+      }
+      .col-md-2{
+          margin-bottom: 40px;
+      }
+      .album-poster{
+          position: relative;
+          display: block;
+          border-radius: 12px;
+          overflow: hidden;
+          box-shadow: 0 5px 30px grey;
+          transition: all ease 0.4s;
+      }
+       .album-poster:hover{
+           box-shadow: 0 5px 70px lightseagreen;
+           transform: scale(0.98) translateY(10px);
+       }
+       h3{
+           font-size: 50px;
+           color: #d9e4dd;
+           margin-bottom: 25px;
+           border-bottom: 3px solid #32e0c4;
+           padding-bottom: 20px;
+           font-family:'Dancing Script', cursive ;
+           display: inline-block;
+       }
+       p{
+           font-size: 15px;
+           margin-top: 10px;
+           color: #a6a9b6;
+           font-family: 'Akaya Kanadaka', cursive;
+       }
+       h4{
+           font-size: 16px;
+           text-transform: uppercase;
+           margin-top: 15px;
+           font-weight: 700;
+           font-family:'Kaushan Script', cursive ;
+           color: #db6400;
+
+       }
+       .imgl{
+           border: 10px double lightsteelblue;
+           border-radius: 50%;
+           width: 50%;
+           height: 25vh;
+           margin:30px;
+           margin-left: 25vw;
+           transition: all ease 0.45s;
+           overflow: hidden;
+        }
+        .imgl:hover{
+            box-shadow: 0 5px 500px lightcoral;
+           transform: scale(0.98) translateY(10px);
+        }
+    </style>
+  </head>
+  <body>
+    
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                    <div ><img src="./pn1.png" class="imgl"></div>
+                    <div class="col-md-12">
+                    <h3>New Releases</h3>
+                    
+                    </div>
+                
+                
+                <div class="col-md-2" >
+                    <a href="#" class="album-poster" data-switch="0">
+                        <img src="./Alan walker.jfif" alt="AlanWalker-iMage" width="220px" height="250px">
+                    </a>
+                    <h4>Alan walker</h4>
+                    <p>Alan-2019</p>
+                </div>
+
+                <div class="col-md-2" >
+                    <a href="#" class="album-poster" data-switch="1">
+                        <img src="./selena-gomez.jfif" alt="selena-gomez-iMage" width="220px" height="250px" >
+                    </a>
+                    <h4>selena-gomez</h4>
+                    <p>selena-2019</p>
+                </div>
+
+                <div class="col-md-2" >
+                    <a href="#" class="album-poster" data-switch="2">
+                        <img src="./Justin-bieber.jfif" alt="Justin-Bieber-iMage" width="220px" height="250px" >
+                    </a>
+                    <h4>Justin-bieber</h4>
+                    <p>justin-2019</p>
+                </div>
+
+                <div class="col-md-2" >
+                    <a href="#" class="album-poster" data-switch="3">
+                        <img src="./dua-lipa.jfif" alt="Dua-lipa-iMage" width="220px" height="250px">
+                    </a>
+                    <h4>Dua-lipa</h4>
+                    <p>Dua-2019</p>
+                </div>
+
+
+                <div class="col-md-2" >
+                    <a href="#" class="album-poster" data-switch="4">
+                        <img src="./sid-sriram.jpeg" alt="sid-sriram-iMage" width="220px" height="250px">
+                    </a>
+                    <h4>Sid-Sriram</h4>
+                    <p>Sid-2019</p>
+                </div>
+
+                <div class="col-md-2" >
+                    <a href="#" class="album-poster" data-switch="5"> 
+                        <img src="./anirudh1.jfif" alt="Anirudh-iMage" width="220px" height="250px">
+                    </a>
+                    <h4>Anirudh</h4>
+                    <p>Ani-2019</p>
+                </div>
+
+                <div class="col-md-2" >
+                    <a href="#" class="album-poster" data-switch="6">
+                        <img src="./shakira.jfif" alt="shakira-iMage" width="220px" height="250px" > 
+                    </a>
+                    <h4>Shakira</h4>
+                    <p>shakira-2019</p>
+                </div>
+
+                <div class="col-md-2" >
+                    <a href="#" class="album-poster" data-switch="7">
+                        <img src="./dsp.jfif" alt="DSP-iMage" width="220px" height="250px">
+                    </a>
+                    <h4>DSP</h4>
+                    <p>DSP-2019</p>
+                </div>
+
+
+            </div>
+            <div class="row">
+                 <div class="col-md-12">
+                    <h3>Coming Releases</h3>
+                  </div>
+                 <div class="col-md-3">
+                    <a href="#" class="album-poster" >
+                        <img src="./radhe.jfif" alt="radhe" class="Comingreleases">
+                    </a>   
+                    <h4>Radhe</h4>
+                </div> 
+
+                <div class="col-md-3">
+                    <a href="#" class="album-poster" >
+                        <img src="./rrr.png" alt="RRR" class="Comingreleases">
+                    </a>   
+                    <h4>RRR</h4>
+                </div> 
+
+                <div class="col-md-3">
+                    <a href="#" class="album-poster">
+                        <img src="./HHR.jpg" alt="Hari hara verra mallu" class="Comingreleases">
+                    </a>   
+                    <h4>H.H.Mallu</h4>
+                </div> 
+
+                <div class="col-md-3">
+                    <a href="#" class="album-poster" >
+                        <img src="./adipurush.jfif" alt="adipurush" class="Comingreleases">
+                    </a>   
+                    <h4>Adipurursh</h4>
+                </div> 
+
+                
+
+             </div>
+        
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="aplayer"></div>
+
+	<!-- Jquery Link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- Bootstrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+	<!-- APlayer Jquery link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>	
+
+	<script>
+	// NOW I CLICK album-poster TO GET CURRENT SONG ID
+    $(".album-poster").on('click', function(e){
+			var dataSwitchId = $(this).attr('data-switch');
+			//console.log(dataSwitchId);
+
+			// and now i use aplayer switch function see
+			ap.list.switch(dataSwitchId); //this is static id but i use dynamic 
+
+			// aplayer play function
+			// when i click any song to play
+			ap.play();
+
+			// click to slideUp player see
+			$("#aplayer").addClass('showPlayer');
+		});
+
+        const ap = new APlayer({
+		    container: document.getElementById('aplayer'),
+		    listFolded: true,
+		    audio: [
+		    {
+		        name: 'Faded',
+		        artist: 'Alan Walker',
+		        url: './Alan_song.mp3',
+		        cover: './Alan walker.jfif'
+		    },
+            {
+		        name: 'Wolves',
+		        artist: 'Salena',
+		        url: './wolves.mp3',
+		        cover: './selena-gomez.jfif'
+		    },
+
+            {
+		        name: 'Let me go',
+		        artist: 'Justin',
+		        url: './love-you.mp3',
+		        cover: './Justin-bieber.jfif'
+		    },
+
+            {
+		        name: 'Love me like you do',
+		        artist:'Dua-lipa',
+		        url: './love melike.mp3',
+		        cover: './dua-lipa.jfif'
+		    },
+            
+            {
+		        name: 'Ni kallanu',
+		        artist:'sid sri ram',
+		        url: './ala.mp3',
+		        cover: './sid-sriram.jpeg'
+		    },
+
+            {
+		        name: 'Gaali Valuga',
+		        artist:'Anirudh',
+		        url: './gaali.mp3',
+		        cover: './anirudh1.jfif'
+		    },
+            {
+		        name: 'Hips dont lie',
+		        artist:'shakira',
+		        url: './hips.mp3',
+		        cover: './shakira.jfif'
+		    },
+            {
+		        name: 'jala jala',
+		        artist:'DSP',
+		        url: './jala jala.mp3',
+		        cover: './dsp.jfif'
+		    },
+		    ]
+		});
+	</script>
+
+	</body>
+</html>
